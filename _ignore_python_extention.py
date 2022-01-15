@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 ALPH = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 def main():

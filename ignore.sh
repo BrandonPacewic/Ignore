@@ -2,10 +2,7 @@
 
 set -e
 
-SCRIPT_DIR="$(dirname "$0")"
-TARGET_FILE="$SCRIPT_DIR/.gitignore"
-
-if [[ -e $TARGET_FILE ]] 
+if [[ -e ".gitignore" ]] 
 then
     read -r -p "A .gitignore file already exists, are you sure you want to proceed? [N|y]: "
     if ! [[ $REPLY =~ ^[Yy]$ ]]
@@ -16,5 +13,5 @@ then
 fi
 
 touch .gitignore
-python3 _ignore_python_extention.py
+_ignore_python_extention
 subl .gitignore
