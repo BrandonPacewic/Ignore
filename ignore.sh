@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-set e
+set -e
 
 SCRIPT_DIR="$(dirname "$0")"
 TARGET_FILE="$SCRIPT_DIR/.gitignore"
