@@ -12,6 +12,10 @@ then
     fi
 fi
 
+if ! [[ -e ".gitignore" ]] 
+then
 touch .gitignore
+fi
+
 _ignore_python_extention
 subl .gitignore
