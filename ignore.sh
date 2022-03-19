@@ -18,4 +18,4 @@ touch .gitignore
 fi
 
 _ignore_python_extention
-subl .gitignore
+code .gitignore
