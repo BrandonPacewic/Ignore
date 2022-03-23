@@ -1,7 +1,6 @@
 # Ignore
-Script for making a .gitignore file because I am lazy
 
-Used to make a .gitignore file that looks something like this
+Script used to make a .gitignore file that looks something like this
 
 ```
 .gitignore
