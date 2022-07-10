@@ -1,7 +1,7 @@
+#! /usr/bin/python3
+
 # Copyright (c) Brandon Pacewic
 # SPDX-License-Identifier: MIT
-
-#! /usr/bin/python3
 
 ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
