@@ -1,36 +1,35 @@
 # Ignore
-Script for making a .gitignore file because I am lazy
 
-Used to make a .gitignore file that looks something like this
+Used to make a .gitignore file that looks something like this, used for competitive programming.
 
-```
+```Text
 .gitignore
-A.cc
-B.cc
-C.cc
-D.cc
-E.cc
-F.cc
-G.cc
-H.cc
-I.cc
-J.cc
-K.cc
-L.cc
-M.cc
-N.cc
-O.cc
-P.cc
-Q.cc
-R.cc
-S.cc
-T.cc
-U.cc
-V.cc
-W.cc
-X.cc
-Y.cc
-Z.cc
+A.cpp
+B.cpp
+C.cpp
+D.cpp
+E.cpp
+F.cpp
+G.cpp
+H.cpp
+I.cpp
+J.cpp
+K.cpp
+L.cpp
+M.cpp
+N.cpp
+O.cpp
+P.cpp
+Q.cpp
+R.cpp
+S.cpp
+T.cpp
+U.cpp
+V.cpp
+W.cpp
+X.cpp
+Y.cpp
+Z.cpp
 ```
 
-I use this to ignore competitive program solutions that I don't finish during the contest as I make all that files I might need prior to the contest
+I use this to ignore competitive program solutions that I don't finish during the contest as I make all that files I might need prior to the contest.

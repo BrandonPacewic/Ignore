@@ -4,7 +4,7 @@ set -e
 
 if [[ -e ".gitignore" ]] 
 then
-    read -r -p "A .gitignore file already exists, are you sure you want to proceed? [N|y]: "
+    read -r -p "A .gitignore file already exists, are you sure you want to proceed? [n|y]: "
     if ! [[ $REPLY =~ ^[Yy]$ ]]
     then
         echo "Aborting"
@@ -17,5 +17,5 @@ then
 touch .gitignore
 fi
 
-_ignore_python_extention
+ignore_python_extention
 code .gitignore
