@@ -1,3 +1,6 @@
+# Copyright (c) Brandon Pacewic
+# SPDX-License-Identifier: MIT
+
 #!/bin/env bash
 
 set -e
